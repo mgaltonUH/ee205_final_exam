@@ -19,22 +19,22 @@ int main() {
     int length;
     int width;
 
-    double validatenewLength {
-        if(newLength <= 0) {
-            throw std::invalid_argument("length must be > 0")
-        } else {
-            return true;
-        }
+    double validatenewLength{
+            if (newLength <= 0) {
+                throw std::invalid_argument("length must be > 0")
+            } else {
+                return true;
+            }
     };
-    double validatenewWidth {
-        if(newWidth <= 0) {
-            throw std::invalid_argument("Width must be > 0")
-        }
-        else {
-            return true;
-        }
+    double validatenewWidth{
+            if (newWidth <= 0) {
+                throw std::invalid_argument("Width must be > 0")
+            }
+            else {
+                return true;
+            }
     };
-double compute_area {
-
+    double compute_area{
+            length * width = area;
+    }
 };
-}

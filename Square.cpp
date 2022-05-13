@@ -13,7 +13,7 @@
 #include "Rectangle.h"
 
 int main() {
-    double getSide();
-
+    double Rectangle::getSide();
+       return area;
     }
-}
+};

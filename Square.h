@@ -15,6 +15,7 @@ class Square : Rectangle {
 public:
   double getSide();
   double newSide;
+  double area;
 };
 
 
